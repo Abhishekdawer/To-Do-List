@@ -1,0 +1,39 @@
+body{
+  background-color:#9266ff;
+}
+.d1
+{
+  background-color: #3f3160;
+  min-height: 500px;
+  width:400px ;
+  margin: 40px auto;
+}
+
+#f1 input{
+  background-color: rgb(27,112,137);
+  border: 0;
+  width:200px;
+  height:50px;
+  padding:0 20px;
+  margin:20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color:#fff;
+}
+#f1 input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+#f1 input:focus{
+  outline:none;
+}
+
+#f1 button{
+height: 50px;
+width: 80px;
+border-radius: 5px;
+border:0;
+background-color: rgb(202,156,24);
+cursor:pointer;
+font-weight: bolder;
+color:#fff;
+}
